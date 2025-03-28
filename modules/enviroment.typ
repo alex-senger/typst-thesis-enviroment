@@ -67,3 +67,14 @@
   )
   content
 }
+
+#let abstract(body) = {
+  align(center, text(1em, weight: 600, [Abstract]))
+  align(
+    center,
+    text[
+      #body
+    ],
+  )
+  v(1em)
+}

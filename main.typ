@@ -14,15 +14,17 @@
   thesis_kind: "Bachelorarbeit",
 )
 
+#include("parts/0-abstract/main.typ")
+
 #outline()
 
 #pagebreak(weak: true)
 
-#include("parts/0-introduction/main.typ")
+#include("parts/1-introduction/main.typ")
 
 #pagebreak(weak: true)
 
-#include("parts/1-conclusion/main.typ")
+#include("parts/2-conclusion/main.typ")
 
 #pagebreak(weak: true)
 

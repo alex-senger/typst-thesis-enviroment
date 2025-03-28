@@ -2,5 +2,6 @@
 #import "../../modules/state.typ": bib_state
 
 #context bib_state.get()
+#set text(lang: "de")
 
-= Conclusion
+= Conclusion <conclusion>

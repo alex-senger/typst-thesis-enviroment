@@ -2,5 +2,8 @@
 #import "../../modules/state.typ": bib_state
 
 #context bib_state.get()
+#set text(lang: "de")
 
-= Introduction
+#show: env.abstract()[
+  #lorem(150)
+]
